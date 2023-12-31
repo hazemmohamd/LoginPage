@@ -1,0 +1,104 @@
+.home{
+    background-image: url(../img/verne-ho-0LAJfSNa-xQ-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+
+.container{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-block: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.title{
+    margin-bottom: 2rem;
+}
+
+
+.mainText{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.emaildiv,.passworddiv{
+    margin-bottom: 1.5rem;
+}
+
+.btnGen{
+    width: 235px;
+    height: 54px;
+    background-color: #28b498;
+    border-radius: 30px;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: .875rem;
+    line-height: 16px;
+    text-align: center;
+    margin-right: 2rem;
+    transition: 0.3s;
+}
+
+.btnGen:hover{
+    background-color: #31ceaf ;
+}
+
+
+.passwordInput ,.emailInput{
+    width: 100%;
+    height: 48px;
+    background: #eef5f3;
+    outline: 0;
+    border: none;
+    font-family: "Roboto",serif;
+    font-size: .875rem;
+    font-weight: 700;
+    border-radius: 20px;
+    color: #555a59;
+    padding: 0 16px;
+    transition: background 0.3s;
+}
+
+.passwordInput:focus,.emailInput:focus{
+    background:white;
+    border: 1px solid #e1eae7;
+}
+
+
+.subtitle{
+    font-family: "Roboto",serif;
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+.miniSpan{
+    font-family: "Roboto",serif;
+    color:#DC3545;
+
+}
+
+.warningDiv{
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    .btn-container {
+        display: flex;
+      flex-direction: column;
+      align-items: center; 
+    }
+  
+    .subtitle {
+      margin-top: 1rem;
+    } 
+  }
