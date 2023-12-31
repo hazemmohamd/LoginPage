@@ -19,6 +19,7 @@ if(localStorage.getItem("users")!=null){
 
 
 function addUser(){
+  errorMessage.classList.remove("good")
   if(userName.value == ""||userEmail.value == ""||userPassword.value ==""){
     errorMessage.innerText = "All Inputs Are Required";
     errorMessage.classList.remove("d-none")
@@ -46,6 +47,7 @@ function addUser(){
     errorMessageEmail.classList.add("d-none")
     errorMessage.classList.remove("d-none")
     errorMessage.classList.add("good")
+    errorMessage.innerText = "Success"
     errorMessagePassword.classList.add("d-none")
 
   input ={
