@@ -24,7 +24,7 @@ function checkUser(){
     else{
         localStorage.setItem("sessionUsername",check.name)
         console.log("nice");
-        window.location = '../login.html'
+        window.location = 'login.html'
     }
     
 }
