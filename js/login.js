@@ -7,5 +7,5 @@ if(localStorage.getItem("users")!=null){
 
  function exit(){
   localStorage.removeItem("sessionUsername")
-  window.location = `index.html`
+  window.location = './index.html'
  }
