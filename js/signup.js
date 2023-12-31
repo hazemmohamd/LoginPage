@@ -47,7 +47,7 @@ function addUser(){
     errorMessageEmail.classList.add("d-none")
     errorMessage.classList.remove("d-none")
     errorMessage.classList.add("good")
-    errorMessage.innerText = "Success"
+    errorMessage.innerText = "Success Sign Up"
     errorMessagePassword.classList.add("d-none")
 
   input ={
