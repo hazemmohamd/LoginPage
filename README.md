@@ -4,12 +4,6 @@ This is a simple learning project that demonstrates the implementation of a logi
 
 ## Table of Contents
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 - **User Authentication:** Allows users to sign up, log in, and sign out securely.
